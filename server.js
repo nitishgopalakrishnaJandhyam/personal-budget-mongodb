@@ -7,6 +7,7 @@ const app = express();
 const port = 3000;
 const budgetModel = require('./Models/budgetData');
 
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/', express.static("public"));
